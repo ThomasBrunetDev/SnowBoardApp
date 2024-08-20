@@ -1,0 +1,123 @@
+div.post {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 1rem;
+    background-color: rgba(1, 1, 1, 0.5);
+    width: 40rem;
+    position: relative;
+    color: white;
+}
+
+div.post h2 {
+    padding: 1rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+div.post .infos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+    gap: 10px;
+}
+
+div.post .infos p {
+    text-align: center;
+    width: 45%;
+    padding-bottom: 0.5rem;
+}
+
+div.post .infos p span {
+    font-weight: 600;
+}
+
+div.post button.ami {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: none;
+    z-index: 1000;
+    top: 1rem;
+    right: 37rem;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 1rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}
+
+div.post button.ami:hover {
+    /* transition: 0.3s; */
+    color: black;
+    /* scale: 1.2; */
+    background-color: #ccc;
+}
+
+div.post button.trash {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    border: none;
+    z-index: 1000;
+    right: 1rem;
+    top: 1rem;
+    background-color: rgba(0, 0, 0, 1);
+    border-radius: 1rem;
+    padding: 0.8rem;
+    cursor: pointer;
+    color: white;
+    font-size: 1rem;
+}
+
+div.post button.trash:hover {
+    /* transition: 0.3s; */
+    /* scale: 1.2; */
+    color: black;
+    background-color: #ccc;
+}
+
+p.infoBtnAmi{
+    color: white;
+    position: absolute;
+    top: 0rem;
+    right: -10rem;
+    padding: 0rem;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+p.infoBtnTrash{
+    color: white;
+    position: absolute;
+    top: 0rem;
+    left: -12rem;
+    padding: 0rem;
+    background-color: black;
+    border-radius: 1rem;
+    padding: 0.5rem;
+}
+
+@media only screen and (max-width:1024px){
+    div.post {
+        width: 100%;
+    }
+    div.post button.ami {
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+        width: 2.5rem;
+    }
+    div.post button.trash {
+        right: 1rem;
+    }
+}

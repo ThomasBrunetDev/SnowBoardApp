@@ -1,0 +1,144 @@
+div.profil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 100vh; */
+    gap: 2rem;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 64%);
+}
+
+div.profil div.favoris {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+}
+
+div.profil div.favoris h3 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+div.profil div.Sorties {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+div.profil div.Sorties h3 {
+    color: black;
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+div.profil div.Sorties div.sortie {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+div.profil div.user {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+div.profil div.user div.infos {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 40rem;
+    height: 40vh;
+    border-radius: 1rem;
+    color: white;
+}
+
+div.profil div.user div.infos h2 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+}
+
+div.profil div.user div.infos h3{
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 0.5rem;
+
+}
+
+div.profil div.user div.infos button {
+    color: black;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+div.profil div.user div.infos button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+}
+
+
+div.PasFavoris{
+    color: black;
+    text-align: center;
+}
+
+div.PasFavoris p{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+div.PasFavoris span{
+    font-size: 1.5rem;  
+    color: black;
+}
+
+div.PasSortie{
+    color: black;
+    text-align: center;
+}
+
+div.PasSortie p{
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+div.PasSortie span{
+    font-size: 1.5rem;  
+    color: black;
+}
+
+@media only screen and (max-width:1024px){
+    div.profil div.user div.infos {
+        width: 100%;
+        padding: 1rem;
+    }
+}

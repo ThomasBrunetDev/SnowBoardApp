@@ -1,0 +1,135 @@
+div.trackers {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1rem;
+    width: 100%;
+    /* height: 100vh; */
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 64%);
+}
+
+div.tracker-manualy {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    gap: 6rem;
+    width: 40rem;
+    min-height: 50vh;
+}
+
+div.tracker-geoloc {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 1rem;
+    width: 40rem;
+    min-height: 50vh;
+    height: 100%;
+    gap: 1rem;
+}
+
+div.tracker-geoloc form {
+    margin-top: 3rem;
+}
+
+div.tracker-geoloc div.resultat {
+    margin-top: 4rem;
+}
+
+div.trackers h2 {
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+}
+
+div.trackers form {
+    padding-top: 2rem;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10vh;
+}
+
+div.trackers form .radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.trackers form .radio input {
+    text-align: center;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 0rem;
+    border: none;
+    padding: 0rem;
+}
+
+div.trackers form .radio p {
+    color: white;
+    font-size: 1rem;
+}
+
+div.trackers label {
+    color: white;
+    font-size: 1rem;
+}
+
+div.trackers input {
+    font-size: 1rem;
+    text-align: center;
+    width: 9rem;
+    height: 1rem;
+    border-radius: 1rem;
+    border: none;
+    padding: 0.5rem;
+}
+
+div.trackers h3 {
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+div.trackers button {
+    background-color: #f1f1f1;
+    color: black;
+    border: none;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+div.trackers button:hover {
+    color: white;
+    background-color: black;
+}
+
+div.tracker-geoloc p {
+    color: white;
+    font-size: 1rem;
+    text-align: center;
+}
+
+div.trackers button.disabled {
+    background-color: rgb(53, 53, 53);
+    color: white;
+    cursor: not-allowed;
+}
+
+@media only screen and (max-width: 768) {
+    div.tracker {
+        width: 100%;
+    }
+}

@@ -1,1 +1,3 @@
-Application web "Tracker" de snowboard || 2024/05/03
+# Board Buddy (made with React + Vite)
+
+Application web Tracker Snowboard/Ski || 2024-05-01

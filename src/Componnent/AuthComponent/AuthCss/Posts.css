@@ -1,0 +1,44 @@
+div.publications-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 90%);
+}
+
+div.publications-container h1{
+    font-size: 2.5em;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 1rem;
+}  
+
+div.publications-container div.Publications{
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.PasPublication{
+    color: white;
+    text-align: center;
+}
+
+div.PasPublication p{
+    font-size: 1rem;
+    color: rgba(256, 256, 256, 0.5);
+}
+
+div.PasPublication span{
+    font-size: 1.5rem;  
+    color: white;
+}
