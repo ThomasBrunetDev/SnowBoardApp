@@ -90,11 +90,11 @@ const AuthAccueil = () => {
             }, 3000);
         } else {
             setErrorMessages('Le fichier doit être un jpeg, png ou webp');
-            setName('');
-            setDescription('');
-            setLatitude('');
-            setLongitude('');
-            setFile(null);
+            // setName('');
+            // setDescription('');
+            // setLatitude('');
+            // setLongitude('');
+            // setFile(null);
             return;
         }
 
